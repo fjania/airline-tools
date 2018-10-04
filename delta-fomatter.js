@@ -1,5 +1,5 @@
 function getRoutes(){
-    $('.itineraryContainer').each(getFlightDetails);
+    $('.flightContainer').each(getFlightDetails);
 }
 
 function getFlightDetails(number, flight){
